@@ -3,6 +3,8 @@
 /**
  * Interface ConnectionContract
  * @author Scott Wilcox <scott@dor.ky>
+ * @website http://github.com/ssx
+ * @website http://dor.ky
  * @package App\Connections\Contracts
  */
 interface ConnectionContract {

@@ -6,6 +6,8 @@ use GuzzleHttp\Client as GuzzleClient;
 /**
  * Class GitlabConnection
  * @author Scott Wilcox <scott@dor.ky>
+ * @website http://github.com/ssx
+ * @website http://dor.ky
  * @package App\Connections\Providers
  */
 class GitlabConnection implements ConnectionContract {
@@ -72,6 +74,13 @@ class GitlabConnection implements ConnectionContract {
      */
     public function addIssue($mxdParams)
     {
+        // Inject the project ID into the array we're going to POST
+        $mxdParams["id"] = $this->intProjectId;
+
+        // Transform the labels into a comma separated list
+        $mxdParams["labels"] = implode(",", $mxdParams["labels"]);
+
+        // Actually send the request
         $response = $this->guzzle->post($this->strUrlWithProject."/issues?private_token=".$this->strToken, ['body' => $mxdParams]);
         if ($response->getStatusCode() == 201)
         {

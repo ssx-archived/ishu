@@ -5,6 +5,8 @@ use App\Connections\Contracts\ConnectionContract;
 /**
  * Class HelpScoutConnection
  * @author Scott Wilcox <scott@dor.ky>
+ * @website http://github.com/ssx
+ * @website http://dor.ky
  * @package App\Connections\Providers
  */
 class HelpScoutConnection implements ConnectionContract {
