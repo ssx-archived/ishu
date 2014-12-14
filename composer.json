@@ -6,7 +6,7 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "~5.0",
-		"guzzlehttp/guzzle": "~5.0@dev"
+	 	"kertz/twitteroauth": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0"
