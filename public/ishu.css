@@ -135,9 +135,11 @@ body {
 @media (min-width: 768px) {
     /* Pull out the header and footer */
     .masthead {
+        position: fixed;
         top: 0;
     }
     .mastfoot {
+        position: fixed;
         bottom: 0;
     }
     /* Start the vertical centering */
@@ -160,26 +162,6 @@ body {
     }
 }
 
-#dev-table {
-    background: #333333 !important;
-    border: 2px solid #333333;
-}
-
-#dev-table td {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.text-center {
-    text-align: center;
-}
-
-#table-holder {
-    overflow: auto;
-}
-.fixed {
-    position: fixed;
+.margin-top-7 {
+    margin-top: 7px;
 }

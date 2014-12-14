@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
     # Local Virtualbox Provider
     #############################################################
     config.vm.provider :virtualbox do |v|
-        v.name = "isfrankfamousyet.dev"
+        v.name = "ishu.dev"
         v.customize ["modifyvm", :id, "--memory", 1024]
         config.vm.box = "ubuntu/trusty64"
         config.vm.network :private_network, ip: "192.168.13.37"

@@ -34,10 +34,4 @@ return [
 		'secret' => '',
 	],
 
-	'twitter' => [
-		'client_id' 	=> 'hOfYnXEoMGDzjnjtVM9JBpbdp',
-		'client_secret' => 'XVZ4EWCgvJ59XsEP4fKVLAl715VPONvifI5lR7kW4jMfoNwOqh',
-		'redirect' 		=> 'http://isfrankfamousyet.dev/auth/twitter/callback'
-	],
-
 ];

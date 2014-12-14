@@ -25,15 +25,16 @@
                     <nav>
                         <ul class="nav masthead-nav">
                             <li><a href="/">Home</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li class="active"><a href="/contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
 
             <div class="inner cover">
-                <h1 class="cover-heading">Page Not Found</h1><br>
-                <p class="lead">The requested resource does not exist.</p>
+                <h1 class="cover-heading">Contact</h1><br>
+                <p class="lead">If you have any problems submitting your request via<br>
+                    this service, please email <a href="mailto:scott@dor.ky">scott@dor.ky</a>.</p>
 
             </div>
 
